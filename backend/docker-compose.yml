@@ -1,0 +1,33 @@
+services:
+
+  mysql:
+    image: mysql:8.0
+    container_name: transport-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root1234
+      MYSQL_DATABASE: transport_tracker
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot1234"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    image: transport-tracker-backend
+    container_name: transport-backend
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/transport_tracker
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root1234
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+volumes:
+  mysql-data:
