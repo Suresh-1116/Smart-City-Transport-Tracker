@@ -1,14 +1,14 @@
-# 🚌 Smart City Transport Tracker
+#  Smart City Transport Tracker
  
 A full-stack web application for tracking Hyderabad public transport routes, built with Java Spring Boot and React.js. Live and deployed on Railway.
  
-🌐 **Live Demo:** [transport-tracker-frontend-production.up.railway.app](https://transport-tracker-frontend-production.up.railway.app)
+ **Live Demo:** [transport-tracker-frontend-production.up.railway.app](https://transport-tracker-frontend-production.up.railway.app)
  
-🔗 **Live API:** [transport-tracker-production.up.railway.app](https://transport-tracker-production.up.railway.app/api/routes)
+ **Live API:** [transport-tracker-production.up.railway.app](https://transport-tracker-production.up.railway.app/api/routes)
  
 ---
  
-## 🛠️ Tech Stack
+##  Tech Stack
  
 | Layer | Technology |
 |-------|-----------|
@@ -24,19 +24,19 @@ A full-stack web application for tracking Hyderabad public transport routes, bui
  
 ---
  
-## ✨ Features
+##  Features
  
-- 🔐 JWT-based User Authentication & Registration
-- 🔒 BCrypt Password Encryption
-- 👥 Role-based Access Control (Commuter / Admin)
-- 🚌 View all Hyderabad Bus Routes
-- ➕ Add / Edit / Delete Routes (Admin)
-- 📡 Secured REST APIs with Spring Security
-- 🐳 Dockerized for production deployment
-- 🚀 Live deployment with Railway CI/CD
+-  JWT-based User Authentication & Registration
+-  BCrypt Password Encryption
+-  Role-based Access Control (Commuter / Admin)
+-  View all Hyderabad Bus Routes
+-  Add / Edit / Delete Routes (Admin)
+-  Secured REST APIs with Spring Security
+-  Dockerized for production deployment
+-  Live deployment with Railway CI/CD
 ---
  
-## 📁 Project Structure
+##  Project Structure
  
 ```
 Smart-City-Transport-Tracker/
@@ -66,20 +66,20 @@ Smart-City-Transport-Tracker/
  
 ---
  
-## 📡 API Endpoints
+##  API Endpoints
  
 | Method | URL | Description | Auth |
 |--------|-----|-------------|------|
 | POST | /api/auth/register | Register user | No |
 | POST | /api/auth/login | Login & get JWT | No |
 | GET | /api/routes | Get all routes | No |
-| POST | /api/routes | Add new route | ✅ Yes |
-| PUT | /api/routes/{id} | Update route | ✅ Yes |
-| DELETE | /api/routes/{id} | Delete route | ✅ Yes |
+| POST | /api/routes | Add new route |  Yes |
+| PUT | /api/routes/{id} | Update route |  Yes |
+| DELETE | /api/routes/{id} | Delete route |  Yes |
  
 ---
  
-## 🚀 How to Run Locally
+##  How to Run Locally
  
 ### Backend
 ```bash
@@ -102,7 +102,7 @@ docker-compose up
  
 ---
  
-## 👨‍💻 Developer
+##  Developer
  
 **V Suresh Kumar**
 - GitHub: [@Suresh-1116](https://github.com/Suresh-1116)
