@@ -28,7 +28,7 @@ function RoutesList() {
   return (
     <div className="container">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
-        <h2 style={{ color: '#1a73e8' }}> Hyderabad Bus Routes</h2>
+        <h2 style={{ color: '#1a73e8' }}>Hyderabad Bus Routes</h2>
         <span style={{ color: '#666' }}>{routes.length} routes found</span>
       </div>
       {routes.length === 0 ? (

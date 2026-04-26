@@ -18,7 +18,7 @@ function Navbar() {
 
   return (
     <nav>
-      <Link to="/" className="brand"> Transport Tracker</Link>
+      <Link to="/" className="brand">Transport Tracker</Link>
       <Link to="/routes">Routes</Link>
       {isLoggedIn ? (
         <>
