@@ -46,7 +46,7 @@ function Navbar() {
 function Home() {
   return (
     <div className="hero">
-      <h1> Transport Tracker</h1>
+      <h1>Transport Tracker</h1>
       <p>Your smart guide to Hyderabad public transport</p>
       <Link to="/routes">
         <button className="btn btn-primary" style={{ fontSize: '16px', padding: '14px 35px' }}>
