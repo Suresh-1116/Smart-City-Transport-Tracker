@@ -13,7 +13,7 @@ function Register() {
   const handleRegister = async () => {
     try {
       const response = await axios.post(
-        'https://transport-tracker-production.up.railway.app/api/auth/register',
+        'https://smart-city-transport-tracker.onrender.com/api/auth/register',
         { name, email, password }
       );
       setIsError(false);

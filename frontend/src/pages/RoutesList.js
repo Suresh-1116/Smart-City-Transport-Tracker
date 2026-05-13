@@ -6,7 +6,7 @@ function RoutesList() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get('https://transport-tracker-production.up.railway.app/api/routes')
+    axios.get('https://smart-city-transport-tracker.onrender.com/api/routes')
       .then(response => {
         setRoutes(response.data);
         setLoading(false);
