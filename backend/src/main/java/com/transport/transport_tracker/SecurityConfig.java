@@ -44,8 +44,9 @@ public class SecurityConfig {
         config.setAllowedOrigins(List.of(
         "http://localhost:3000",
         "http://localhost:3001",
-        "https://transport-tracker-frontend-production.up.railway.app"
+        "https://transport-tracker-frontend-ghnr.onrender.com"
         ));
+        
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true);
