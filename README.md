@@ -2,9 +2,9 @@
  
 A full-stack web application for tracking Hyderabad public transport routes, built with Java Spring Boot and React.js. Live and deployed on Railway.
  
- **Live Demo:** [transport-tracker-frontend-production.up.railway.app](https://transport-tracker-frontend-production.up.railway.app)
+ **Live Demo:** [transport-tracker-frontend-production.up.railway.app](Live Demo: https://transport-tracker-frontend-ghnr.onrender.com)
  
- **Live API:** [transport-tracker-production.up.railway.app](https://transport-tracker-production.up.railway.app/api/routes)
+ **Live API:** [transport-tracker-production.up.railway.app](Live API: https://smart-city-transport-tracker.onrender.com/api/routes)
  
 ---
  
